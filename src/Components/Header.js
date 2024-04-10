@@ -1,10 +1,10 @@
 import react from "react";
 
-const Header = () => {
+function Header () {
     return (
-        <div className="header">
+        <header className="header">
             <h1>The World of Ramaria</h1>
-        </div>
+        </header>
     )
 }
 
