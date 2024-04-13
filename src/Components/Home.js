@@ -4,7 +4,7 @@ import { summary } from "../Information";
 function Home () {
 
     return (
-        <div className="home">
+        <div className="content">
             <p>{summary.main}</p>
         </div>
     )

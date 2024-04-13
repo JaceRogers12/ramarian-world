@@ -7,10 +7,12 @@ import Navigation from "./Components/Navigation.js";
 function App() {
 
   return (
-    <div className="App">
+    <div className="App" >
       <Header />
-      <Navigation />
-      <Home />
+      <div className="main" >
+        <Navigation />
+        <Home />
+      </div>
       <Footer />
     </div>
   );

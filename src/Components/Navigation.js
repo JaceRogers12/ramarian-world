@@ -3,6 +3,7 @@ import react from "react";
 function Navigation () {
     return (
         <div className="navigation">
+            <p>Home</p>
             <p>Places</p>
             <p>Magic</p>
             <p>Races</p>
