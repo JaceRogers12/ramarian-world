@@ -11,9 +11,11 @@
 .navigation {
   border-right: 3px hsl(130, 30%, 50%) solid;
   border-bottom: 3px hsl(130, 30%, 50%) solid;
-  width: 80px;
+  width: 85px;
   padding: 8px;
-  height: 350px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  height: 340px;
   margin-top: 5px;
   margin-bottom: 8px;
   display: flex;
@@ -43,4 +45,9 @@
 .main {
   /* border: 2px orange dashed; */
   display: flex;
+}
+
+.navLink {
+  font-size: 20px;
+  padding: 5px 0 5px 0;
 }
