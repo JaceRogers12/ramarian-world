@@ -4,8 +4,7 @@ function Footer() {
 
     return (
         <footer className="footer">
-            <p>Creator: Jace Rogers</p>
-            <p>email: jacerogers12@gmail.com</p>
+            <div>Contact: jacerogers12@gmail.com</div>
         </footer>
     )
 }

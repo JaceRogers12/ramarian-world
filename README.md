@@ -1,3 +1,10 @@
+Hi, I'm Jace and I've made a website about a fantasy world I created.
+I'm very new to software engineering (that's probably very apparent)
+but I thought I'd see what I could brew up on my own without building off of one of my school's projects.
+Anyway, it's been a good learning experience.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

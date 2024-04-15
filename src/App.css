@@ -1,3 +1,53 @@
 .App h1 {
   text-align: center;
 }
+
+.App {
+  background-color: hsla(130, 30%, 100%, 90%);
+  margin: 5%;
+  /* border: 2px blue dashed; */
+}
+
+.navigation {
+  border-right: 3px hsl(130, 30%, 50%) solid;
+  border-bottom: 3px hsl(130, 30%, 50%) solid;
+  width: 85px;
+  padding: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  height: 340px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  border: 3px black solid;
+  padding: 8px;
+  background: hsl(130, 30%, 50%);
+  border-radius: 5px;
+  margin: -5px;
+}
+
+.footer {
+  display: block;
+  border-top: 3px hsl(130, 30%, 50%) solid;
+  padding: 15px;
+}
+
+.content {
+  width: auto;
+  /* border: 2px yellow dashed; */
+  padding: 12px;
+}
+
+.main {
+  /* border: 2px orange dashed; */
+  display: flex;
+}
+
+.navLink {
+  font-size: 20px;
+  padding: 5px 0 5px 0;
+}
