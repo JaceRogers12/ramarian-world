@@ -25,7 +25,9 @@ function Content (props) {
             }
             {current["subheading"] && <p className="subheading" >{current["subheading"]}</p>}
             {current["image"] && <img alt={`${current["title"]} Image`} />}
-            <p className="text" >{current["text"]}</p>
+            {current["text"] && current["text"].map((para, i) => {
+                return <p className="text" key={i} >{para}</p>
+            })}
         </div>
     )
 }
