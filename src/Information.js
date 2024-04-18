@@ -1,12 +1,12 @@
 export const information = {
-    Routes: ["Home", "Locations", "Magic", "Races", "Creatures", "History", "Stories", "Game", "Other"],
+    Routes: ["Home", "Locations", "Magic", "Races", "Creatures", "History", "Game", "Other"],
     Home: {
         Main: {
             title: "",
             subheading: "",
             image: null,
             text: [
-                `Ramaria is a fantasy world full of unique creatures, fascinating magic, and interesting history. At the moment, however, both Ramaria and this website (as well as the Game and Stories) are works in progress. For now, I recommend you look in the Races section for the diverse types of people within my world.`,
+                `Ramaria is a fantasy world full of unique creatures, fascinating magic, and interesting history. At the moment, however, both Ramaria and this website are works in progress. For now, I recommend you look in the Races section for the diverse types of people within my world.`,
             ],
         }},
     Locations: {
@@ -209,25 +209,39 @@ export const information = {
             title: "Swashim",
             subheading: "",
             image: null,
-            text: "",
+            text: [
+                `The swashim are a race of amphibios people. They have webbed hands and feet, aside from their opposable thumbs and opposable big toes. They also have strong tails that they use for swimming. Most of them are blue, green, or any combination of the two, though some of them have purple hues in their skin.`,
+                `They most often live in and around fresh water environments. Their offspring are hatched in groups of 2-6 eggs. Swashim live for less than a century and mature throughout their teens. They begin to grow old in their late 60s, when their skin grows dryer and more wrinkley. They are a short race, only two to four feet tall.`,
+            ],
         },
         Altaens: {
             title: "Altaens",
             subheading: "",
             image: null,
-            text: "",
+            text: [
+                `The altaens are short people that bear similarities to moths. Their skin is covered in a patterned peach fuzz-like fur. The patterns are similar to a leopard's pelt. Their noses are broad and flat, and they have small, round ears on top of their heads, shaped like those of a mouse. Typical eye colors for altaens include dark maroon, dark green, dark red, dark blue, and dark purple. Fuzzy antennae, like those of a moth's, sprout from the tops of their heads. They only grow to be three or four feet tall.`,
+                `Altaens have shorter lifespans than humans. They only live to be 60 to 80 years old, and they mature slightly faster, becoming adults at around the age of 15. Old age begins to show its effects around age 60.`,
+                `The colors of altaen skin are very natural colors: earthy red, brown, white, grey, and black, although grey, brown, and any mix of those two are the most common.`,
+            ],
         },
         Ordim: {
             title: "Ordim",
             subheading: "",
             image: null,
-            text: "",
+            text: [
+                `Ordim are a people with the ability to petrify themselves into statues made of a stone-like substance. They have translucent skin, like cloudy glass. It has patterns like polished stone- usually marble, sometimes granite or other stones. Their skin is usually some shade of grey, with a tint of other another color. The most common tints are blue, pink, orange, and green. Their eyes match the tint of their skin. Ordim don't grow any hair and they are always six and a half feet tall.`,
+                `Most ordim live a little over a century. They mature through their late teens and early 20s, and begin to suffer from the effects of old age in their 60s or 70s. Thier skin doesn't wrinkle as they become older, nor do they become more frail. However, they do begin to move more slowly and develop body aches. When an ordim dies, he or she petrifies, turning into a permanent statue.`,
+            ],
         },
         Haltani: {
             title: "Haltani",
             subheading: "",
             image: null,
-            text: "",
+            text: [
+                `The most siginificant thing about the haltani is their immortality. Each one has a gemstone embedded in the roof of his or her mouth, about the size of an eye, but flatter. When a haltana dies, the gemstone is released and if it is brought back to a fountain in the Homeland, the gemstone can recreate the haltana. He or she would even retain the same memories. There are always 500 haltani because they are incapable of reproducing with each other.`,
+                `Aside from the gemstones in their mouthes, haltani look very similar to humans. The only other visible difference is that their eyes are always grey, their eyebrows can grow very long, and they get culturally significant tattoos. Traditionally, each tattoo resembles a lifetime.`,
+                `Each haltana's gemstone is unique. Each one has a pattern like frozen lightning inside and their colors are all different. They vibrate and are warm to the touch. When placed in any still body of water, they emit a soft, particular sound, like a song.`,
+            ],
         },
     },
     Creatures: {
