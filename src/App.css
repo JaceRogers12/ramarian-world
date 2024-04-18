@@ -14,8 +14,8 @@
   width: 85px;
   padding: 8px;
   padding-top: 3px;
-  padding-bottom: 3px;
-  height: 340px;
+  padding-bottom: 8px;
+  height: 300px;
   margin-top: 5px;
   margin-bottom: 8px;
   display: flex;
@@ -39,7 +39,7 @@
 .content {
   width: auto;
   /* border: 2px yellow dashed; */
-  padding: 12px;
+  padding: 16px;
 }
 
 .main {
