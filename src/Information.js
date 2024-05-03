@@ -6,7 +6,7 @@ export const information = {
             subheading: "",
             image: null,
             text: [
-                `Ramaria is a fantasy world full of unique creatures, fascinating magic, and interesting history. At the moment, however, both Ramaria and this website are works in progress. For now, I recommend you look in the Races section for the diverse types of people within my world.`,
+                `Ramaria is a fantasy world full of unique creatures, fascinating magic, and interesting history. At the moment, however, both Ramaria and this website are works in progress.`,
             ],
         }},
     Locations: {
@@ -292,13 +292,26 @@ export const information = {
             title: "Terrors",
             subheading: "",
             image: null,
-            text: "",
+            text: [
+                `A word of warning, I have intentionally tried to make the terrors... unpleasant. While I haven't described them in disturbing detail here, if you are uninclined toward horror or related material, I advise you to skip this subject.`,
+                `Terrors are the most terrifying creatures in Ramaria. They dwell only in the darkness, and are all violent in nature. These two behaviors alone make them a challenge to research. In the sunlight, they turn into smoke, and when night falls, they seem to appear out of nowhere. They reproduce by killing other creatures. After a period of time, the killed creature transforms, mutating into a new monstrosity. When a terror dies, they rapidly decompose into a pool of black sludge.`,
+                `Among the more well known types of terrors are predators, snares, shells, and stalkers. Though several other types exist, very little is known about them.`,
+                `Predators are generally wolf-like. Their snouts are longer and filled with sharp teeth that drip a dark fluid. They don't have eyes, nor fur. Their pale skin is left exposed, and clings tightly to their gaunt bodies. Predators are clever hunters, relying on ambushes and pack tactics to overwhelm their prey. It is commonly believed that they actually can smell fear.`,
+                `Snares look like dead trees, and sometimes the trees around them are dead as well. They don't move, and they only attack at night. When they do strike, they use long, thin tendrils to immobilize their prey. Once captured, they inject their victims with a dark, ink-like fluid.`,
+                `Shells seem to be made from mutated people. They retain their generally humanoid figure, but undergo dramatic changes. Their skin pales, their hair will often fall out, their eyes and nose shrivel away, and their mouthes seal over. They have psychic powers that they use intelligently to manipulate, torment, and confuse their victims. They often target sleeping individuals, and the more powerful among them can make a person unsure whether they are dreaming or awake.`,
+            ],
         },
         Dragons: {
             title: "Dragons",
             subheading: "",
             image: null,
-            text: "",
+            text: [
+                `The dragons in Ramaria are not like the dragons of earth. They look like lions, but with more canine features. Their manes and tails, as well as places along their legs, have cascades of magical energy around them. The magic looks like a cosmic waterfall and streams behind them as they fly, which is done through magic- they don't have wings.`,
+                `There is a challenge sacred to the dragons. While many of them attempt the challenge, very few succeed. Those who do become elder dragons (which is a title, rather than an indication of age). Elder dragons grow much larger, live far longer, and gain incredible powers. They are the masters of their race and among the most powerful creatures in the world. Some believe that elder dragons are capable of granting wishes. The dragons who fail the challenge, however, often leave permenantly handicapped, if they escape at all.`,
+                `Dragons live for 400 years, maturing steadily during the first 80, and are socially recognized as adults after their first century. They usually have very few offspring, between 0 and 3, during their adult lives. Each cub is rare and is considered a blessing by all dragons.`,
+                `Dragons are usually found in pairs. Where there is one dragon, another is likely close by. These companionships are sometimes friends, sometimes mates, and sometimes a mentor and a student. Regardless of the relationship, they offer each other counsel, protection, and company.`,
+                `Dragons do not worship gods or goddesses. However, many dragons do still practice religion. They discuss and worship philosophies, ideals, the universe, balance, and fate without personifying them. Instead, they accept them as they are and try to gain a deeper understanding of such subjects and their personal place within these larger entities.`,
+            ],
         },
         // Divinities: {
         //     title: "Divinities",
