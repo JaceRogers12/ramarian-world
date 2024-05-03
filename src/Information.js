@@ -6,7 +6,7 @@ export const information = {
             subheading: "",
             image: null,
             text: [
-                `Ramaria is a fantasy world full of unique creatures, fascinating magic, and interesting history. At the moment, however, both Ramaria and this website are works in progress. For now, I recommend you look in the Races section for the diverse types of people within my world.`,
+                `Ramaria is a fantasy world full of unique creatures, fascinating magic, and interesting history. At the moment, however, both Ramaria and this website are works in progress.`,
             ],
         }},
     Locations: {
@@ -130,7 +130,12 @@ export const information = {
             title: "",
             subheading: "",
             image: null,
-            text: "",
+            text: [
+                `Ramaria is full of magic. The gods and goddesses have magic, the people have magic, and many of the other creatures in the world have magic. Nearly anything can be done with magic, but learning to control it takes self control, discipline, and a lot of practice. It isn't a precise science. It has patterns, but any "rules" seem to be capable of being broken, given the right circumstance.`,
+                `People connect to magic through spirit and control it with emotions. More mellow emotions yield more control, but passionate emotions have a lot more raw power. Magical ability can be compared to fitness. Some people are naturally more athletic than others, but effort and practice can develop people's abilities and expand their capacities. People's magic usually develops around the same time as their bodies, meaning that youths have very little magical ability, but adults' powers are fully matured.`,
+                `Each person has access to two kinds of magic. The common theory about magic is that there are twelve types, and they are split evently into two categories: elemental and mystical. The elemental types of magic are: light, fire, air, dark, water, and earth. The mystical types of magic are: material, space, arcance, conceptual, time, and life.`,
+                `People requre a specific resource in order to use their magic. This substance is called glimmer. In its natural state, it is a very fine, sparkly dust, hence its name. During the night, glimmer collects on reflective surfaces, and gradually dissolves over the course of 24 hours.`,
+            ],
         },
     },
     Races: {
@@ -157,7 +162,7 @@ export const information = {
             text: [
                 `The ramu are the most animalistic race in Ramaria. They have fur coats, tails, flat snouts, claws, and digitigrade legs. Their ears are long and on the tops of their heads, rather than on the sides. They often have very divese size ranges, anywhere from 4 feet to 7 feet tall.`,
                 `The ramu also typically live nomadic lifestyles, moving from place to place. Freedom to move, choose, and express themselves are all things they value highly. A spirit of adventure and discovery calls to them, driving them to roam, even dispite the dangers of the wilds.`,
-                `Ramu are typically healthy and strong, allowing them to live for as long as 120 years. However, due to the unstable nature of life on the move and the threats of the world away from civilization, their typical lifespans are usually much shorter; most of them die in their 70s. Maturity progresses quickly for raman adolescents, and can happen at any time throughout their teenage years. Some youths are fully matured when others are just beginning to start the process. The effects of old age usually begin to occur when they reach their late 60s or 70s. Old ramu that can't keep up with their nomadic tribes will often join a nearby friendly settlement of another community to rest from a life of travel.`,
+                `Ramu are typically healthy and strong, allowing them to live for as long as 120 years. However, due to the unstable nature of life on the move and the threats of the world away from civilization, their typical lifespans are usually much shorter. Maturity progresses quickly for raman adolescents, and can happen at any time throughout their teenage years. Some youths are fully matured when others are just beginning to start the process. The effects of old age usually begin to occur when they reach their late 60s or 70s. Old ramu that can't keep up with their nomadic tribes will often join a nearby friendly settlement of another community to rest from a life of travel.`,
             ],
         },
         Jaiyu: {
@@ -180,7 +185,7 @@ export const information = {
                 `The marden are the largest of the ramarian races. Nicknamed "brutes", one look at a marden and it's not hard to see why. They are over 6 feet tall, with some even taller than 8 feet. Many marden have horns or some form of tusks, though very few have both. Their skin is rough and hard like that of a rhinocerous. Their physical builds feature broad shoulders, thick chests, and sturdy legs. The knuckles on their fists form sharp, brutal points.`,
                 `A spirit of agression is also a common trait of the marden. Not to be confused with anger, they are passionately competitive in many of their pursuits. The release of their aggressive energy in some competitive form is important to them. It often has cultural or traditional significance.`,
                 `Marden, like humans, live for less than a century. They mature in their early teens, reach adulthood in their late teens, and are often subjected to old age gradually after they turn 40.`,
-                `Marden skin is bronze in color. Male marden don't grow any hair on their bodies, and female marden grow it bountifully. They often style their hair in a viking fashion or leaving it to naturally develop into a fiece mane. Due to their biology, hair is seen as a feminine trait in their cultures, and often men of other races that live among them will shave their faces and heads.`
+                `Marden skin is bronze in color. Male marden don't grow any hair on their bodies, and female marden grow it bountifully. They often style their hair in a viking fashion or leave it to naturally develop into a fiece mane. Due to their biology, hair is seen as a feminine trait in their cultures, and often men of other races that live among them will shave their faces and heads.`
             ]
 
         },
@@ -191,7 +196,7 @@ export const information = {
             text: [
                 `The bordromar are a plant based people. They have bark for skin, sap for blood, and branches that grow from their heads and shoulders. Instead of feet, they have a mass of roots that spread across the ground. They're 5 to 8 feet tall.`,
                 `Bordran communities are reclusive and peaceful. They are not frequently prone to violence unless they are overtly endangered. They are the most successful race at coexisting with the creatures of the wild.`,
-                `Of all the people in Ramaria, the bordromar have the longest lifespan, which can be well over 2 centuries. They begin to mature around their 20th year of life and usually finish in their early 30s. Traditionally, they don't formally recognize adulthood. In their cultures, people are simply young, middle-aged, or elderly.`,
+                `Of all the people in Ramaria, the bordromar have the longest lifespan, which can be well over two centuries. They begin to mature around their 20th year of life and usually finish in their early 30s. Traditionally, they don't formally recognize adulthood. In their cultures, people are simply young, middle-aged, or elderly.`,
             ],
         },
         Teirim: {
@@ -211,7 +216,7 @@ export const information = {
             image: null,
             text: [
                 `The swashim are a race of amphibios people. They have webbed hands and feet, aside from their opposable thumbs and opposable big toes. They also have strong tails that they use for swimming. Most of them are blue, green, or any combination of the two, though some of them have purple hues in their skin.`,
-                `They most often live in and around fresh water environments. Their offspring are hatched in groups of 2-6 eggs. Swashim live for less than a century and mature throughout their teens. They begin to grow old in their late 60s, when their skin grows dryer and more wrinkley. They are a short race, only two to four feet tall.`,
+                `They most often live in and around fresh water environments. Their offspring are hatched in groups of 2-6 eggs. Swashim live for less than a century and mature throughout their teens. They begin to grow old in their late 60s, when their skin grows dryer and more wrinkley. They are a short race, only 2 to 4 feet tall.`,
             ],
         },
         Altaens: {
@@ -219,7 +224,7 @@ export const information = {
             subheading: "",
             image: null,
             text: [
-                `The altaens are short people that bear similarities to moths. Their skin is covered in a patterned peach fuzz-like fur. The patterns are similar to a leopard's pelt. Their noses are broad and flat, and they have small, round ears on top of their heads, shaped like those of a mouse. Typical eye colors for altaens include dark maroon, dark green, dark red, dark blue, and dark purple. Fuzzy antennae, like those of a moth's, sprout from the tops of their heads. They only grow to be three or four feet tall.`,
+                `The altaens are short people that bear similarities to moths. Their skin is covered in a patterned peach fuzz-like fur. The patterns are similar to a leopard's pelt. Their noses are broad and flat, and they have small, round ears on top of their heads, shaped like those of a mouse. Typical eye colors for altaens include dark maroon, dark green, dark red, dark blue, and dark purple. Fuzzy antennae, like those of a moth's, sprout from the tops of their heads. They only grow to be 3 or 4 feet tall.`,
                 `Altaens have shorter lifespans than humans. They only live to be 60 to 80 years old, and they mature slightly faster, becoming adults at around the age of 15. Old age begins to show its effects around age 60.`,
                 `The colors of altaen skin are very natural colors: earthy red, brown, white, grey, and black, although grey, brown, and any mix of those two are the most common.`,
             ],
@@ -249,80 +254,101 @@ export const information = {
             title: "Ramarian Creatures",
             subheading: "",
             image: null,
-            text: "",
+            text: [
+                `Ramaria has 12 types of creatures, which are described very breifly below. Not all of the creatures below have more detailed information. Elementals, Constructs, and Mutations, for example, are very unique based on their creator. People are already outlined in detail in the Races section. Lastly, I don't have a large stock of creatures made yet, so some of my categores are empty.`,
+                `People are intelligent, bipedal creatures with magical powers. For information about the types of people in Ramaria, look into Races.`,
+                `Plants include regular flora, but also include similar life forms that have more intelligence or are more animated.`,
+                `Animals are all sorts of unintelligent and semi-intelligent creatures that don't possess magical powers.`,
+                `Monsters are many types of unintelligent or semi-intelligent life forms that possess magical abilities.`,
+                `Terrors are creatures that exist only in dark places or that roam at night. In direct sunlight, they turn into smoke.`,
+                `Dragons are immensely powerful, intelligent, flying creatures with magical abilities.`,
+                `Divinities include the gods and goddesses of Ramaria, as well as the creatures closely associated with them.`,
+                `Elementals are non-living creatures created with elemental magic.`,
+                `Constructs are non-living creatures animated by mechanics or magic.`,
+                `Undead are creatures that have died and have some portion of life or animation restored to them by magic.`,
+                `Mutations are creatures that have been modified from their original nature, usually by magic.`,
+                `Otherworldly Beings are creatures that don't naturally belong on Ramaria.`,
+            ],
         },
-        People: {
-            title: "People",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Plants: {
-            title: "Plants",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Animals: {
-            title: "Animals",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Monsters: {
-            title: "Monsters",
-            subheading: "",
-            image: null,
-            text: "",
-        },
+        // Plants: {
+        //     title: "Plants",
+        //     subheading: "",
+        //     image: null,
+        //     text: "",
+        // },
+        // Animals: {
+        //     title: "Animals",
+        //     subheading: "",
+        //     image: null,
+        //     text: "",
+        // },
+        // Monsters: {
+        //     title: "Monsters",
+        //     subheading: "",
+        //     image: null,
+        //     text: "",
+        // },
         Terrors: {
             title: "Terrors",
             subheading: "",
             image: null,
-            text: "",
+            text: [
+                `A word of warning, I have intentionally tried to make the terrors... unpleasant. While I haven't described them in disturbing detail here, if you are uninclined toward horror or related material, I advise you to skip this subject.`,
+                `Terrors are the most terrifying creatures in Ramaria. They dwell only in the darkness, and are all violent in nature. These two behaviors alone make them a challenge to research. In the sunlight, they turn into smoke, and when night falls, they seem to appear out of nowhere. They reproduce by killing other creatures. After a period of time, the killed creature transforms, mutating into a new monstrosity. When a terror dies, they rapidly decompose into a pool of black sludge.`,
+                `Among the more well known types of terrors are predators, snares, shells, and stalkers. Though several other types exist, very little is known about them.`,
+                `Predators are generally wolf-like. Their snouts are longer and filled with sharp teeth that drip a dark fluid. They don't have eyes, nor fur. Their pale skin is left exposed, and clings tightly to their gaunt bodies. Predators are clever hunters, relying on ambushes and pack tactics to overwhelm their prey. It is commonly believed that they actually can smell fear.`,
+                `Snares look like dead trees, and sometimes the trees around them are dead as well. They don't move, and they only attack at night. When they do strike, they use long, thin tendrils to immobilize their prey. Once captured, they inject their victims with a dark, ink-like fluid.`,
+                `Shells seem to be made from mutated people. They retain their generally humanoid figure, but undergo dramatic changes. Their skin pales, their hair will often fall out, their eyes and nose shrivel away, and their mouthes seal over. They have psychic powers that they use intelligently to manipulate, torment, and confuse their victims. They often target sleeping individuals, and the more powerful among them can make a person unsure whether they are dreaming or awake.`,
+            ],
         },
         Dragons: {
             title: "Dragons",
             subheading: "",
             image: null,
-            text: "",
+            text: [
+                `The dragons in Ramaria are not like the dragons of earth. They look like lions, but with more canine features. Their manes and tails, as well as places along their legs, have cascades of magical energy around them. The magic looks like a cosmic waterfall and streams behind them as they fly, which is done through magic- they don't have wings.`,
+                `There is a challenge sacred to the dragons. While many of them attempt the challenge, very few succeed. Those who do become elder dragons (which is a title, rather than an indication of age). Elder dragons grow much larger, live far longer, and gain incredible powers. They are the masters of their race and among the most powerful creatures in the world. Some believe that elder dragons are capable of granting wishes. The dragons who fail the challenge, however, often leave permenantly handicapped, if they escape at all.`,
+                `Dragons live for 400 years, maturing steadily during the first 80, and are socially recognized as adults after their first century. They usually have very few offspring, between 0 and 3, during their adult lives. Each cub is rare and is considered a blessing by all dragons.`,
+                `Dragons are usually found in pairs. Where there is one dragon, another is likely close by. These companionships are sometimes friends, sometimes mates, and sometimes a mentor and a student. Regardless of the relationship, they offer each other counsel, protection, and company.`,
+                `Dragons do not worship gods or goddesses. However, many dragons do still practice religion. They discuss and worship philosophies, ideals, the universe, balance, and fate without personifying them. Instead, they accept them as they are and try to gain a deeper understanding of such subjects and their personal place within these larger entities.`,
+            ],
         },
-        Divinities: {
-            title: "Divinities",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Elementals: {
-            title: "Elementals",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Constructs: {
-            title: "Constructs",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Undead: {
-            title: "Undead",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Mutations: {
-            title: "Mutations",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Otherworldly: {
-            title: "Otherworldly",
-            subheading: "",
-            image: null,
-            text: "",
-        }
+        // Divinities: {
+        //     title: "Divinities",
+        //     subheading: "",
+        //     image: null,
+        //     text: "",
+        // },
+        // Elementals: {
+        //     title: "Elementals",
+        //     subheading: "",
+        //     image: null,
+        //     text: "",
+        // },
+        // Constructs: {
+        //     title: "Constructs",
+        //     subheading: "",
+        //     image: null,
+        //     text: "",
+        // },
+        // Undead: {
+        //     title: "Undead",
+        //     subheading: "",
+        //     image: null,
+        //     text: "",
+        // },
+        // Mutations: {
+        //     title: "Mutations",
+        //     subheading: "",
+        //     image: null,
+        //     text: "",
+        // },
+        // Otherworldly: {
+        //     title: "Otherworldly",
+        //     subheading: "",
+        //     image: null,
+        //     text: "",
+        // }
     },
     History: {
         Main: {
