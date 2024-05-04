@@ -1,12 +1,14 @@
 export const information = {
-    Routes: ["Home", "Locations", "Magic", "Races", "Creatures", "History", "Game", "Other"],
+    Routes: ["Home", "Locations", "Magic", "Races", "Creatures", "History", "Game"],
     Home: {
         Main: {
             title: "",
             subheading: "",
             image: null,
             text: [
-                `Ramaria is a fantasy world full of unique creatures, fascinating magic, and interesting history. At the moment, however, both Ramaria and this website are works in progress.`,
+                `Ramaria is a fantasy world full of unique creatures, fascinating magic, and interesting history. At the moment, however, both Ramaria and this website are works in progress. Regardless, I hope you enjoy what I've created!`,
+                `I have always had a love for magic, fantasy, creatures, and world building. For years I've aspired to undertake a creative work that is rich with details and flavors. It is my dream to create a great work of ficiton, worthy of inspiring others. While I don't think anything in this site is inspirational, I am proud of the work I have done and what I've created here.`,
+                `The content of this website is largely informational, and only contains general information about Ramaria. I have retained many details and secrets and more specific information for the sake of discovery and storytelling in the future.`,
             ],
         }},
     Locations: {
@@ -14,115 +16,76 @@ export const information = {
             title: "Ramaria",
             subheading: "",
             image: null,
-            text: "",
+            text: [
+                `There are many countries across the face of Ramaria. The three most noteworthy countries are Orsira, Ayu, and Mardenda. The other countires of the world are described breifly as follows:`,
+                `Haldera is a generic human kingdom, modelling classic eruopean castles, knights, and fiefs.`,
+                `Romar is a country consisting of 7 raman tribes.`,
+                `Tyarli is a human country creating new paths into engineering and industry.`,
+                `Gorombu is a vast forest where many bordromar make their homes.`,
+                `Coran is a swashi country, the capitol of which is a laketop town that extends below the surface.`,
+                `Drygard is a country of two states, largely divided by a mountain range; one state is in the desert, and the other is in an evergreen forest.`,
+                `Leyli is an empire spanning an archipelago.`,
+                `Dureweald is a cozy altaen country in the south.`,
+                `Irram is a collection of raman communities in the coldest region of ramaria.`,
+                `Aburra is a nomadic country of ramu in the far east.`,
+                `The Homeland is the country of the haltani- a place of peaceful cultivation.`,
+                `Mardenin is a country of marden hunters.`,
+                `Duskar is an underground anarchy where gangs abound under the oppression of a harsh desert.`,
+                `Orjaleif is a mighty jungle inhabited by bordromar.`
+            ],
         },
         Orsira: {
             title: "Orsira",
-            subheading: "",
+            subheading: "The Great Country of Orsira",
             image: null,
-            text: "",
+            text: [
+                `Orsira is the bigggest of all of the civilizations in Ramaria. It is full of all of the different races of people, without any particular one being the dominant race of the population. It's a great mixing pot for all of the cultures and types of people in the world.`,
+                `Orsira is also home to the world's only metropolis, Encentra. The city is often referred to as "The Center of the World". Within is the Temple, which belongs to the religion of Lady Light.`,
+                `The government in Orsira is a representative democracy, with a ruling council of 7 members. Each member is in power for 7 years. Every year, one member is replaced. This keeps the government dynamic, while avoiding siginificant changes over a short period of time.`,
+                `In Orsira, merchants and shipping play a major role in the country's economy. Goods come from all over Ramaria (but mostly from the western region) and go back out all across the continent. Trade is always booming. It's commonly believed that if there's anything that someone wants to find, it has probably at least passed through Orsira at some point.`,
+            ],
         },
         Ayu: {
             title: "Ayu",
-            subheading: "",
+            subheading: "The Jaian Dynasty of Ayu",
             image: null,
-            text: "",
+            text: [
+                `Ayu is full of art, magic, music, and all things beautiful. The bulk of the people of Ayu are skilled craftsmen, each accentuated with a unique blend of magical prowess. The whole country is replete with works of wonder to amaze all of the senses. Food, drink, cloth, incense, music, plays, speeches, tattoos, massages, statues, and all other sorts of creations abound.`,
+                `The people of Ayu wear bright, colorful clothing that compliments jaian hair, skin, and eyes. Ribbons are delighted across the country (or are at least presently in fashion) and they adorn the people in all sorts of ways. Not only that, but people decorate their shops and homes with ribbons. They drape from the eaves, they hang from the windows, they stretch between rooftops, and they flutter and dance with every breeze.`,
+                `Ayu has bountiful trade with other countries. They ship their arts, magical items, and most especially their unique, rich dyes.`,
+                `Zu is the language of Ayu. It has many open, vowel sounds, like an opera. The script is delicate and detailed. While beautiful, it takes time and effort to write. There are many nuanced words in Zu that mean nearly the same thing with slight variations. About one fifth of the population speaks the common Merchant's Tongue (Mertun), particularly traders, shopkeeps, and diplomats.`,
+                `The food in Ayu is very diverse. They have many spices and flavors, but they have a special love for their sweets. Honeys, cinnamon, syrups, candies, creams, and pastries are very popular. The savory foods are usually very saucy, and pasta and noodles are very common. Traditionally, people don't cook at home, they always eat out. Some eateries are high quality for taste or appearance, while others mass produce food for a quick and easy meal.`,
+                `The Ayu clothing is mostly loose and clothy, like kimonos, harem pants, dresses, skirts, kilts, and robes. Their poofy clothing is contrasted by tight things, like waist sashes, short tights, arm or leg wraps, or cinches.`,
+                `Most jaian structures have curving features, such as sloping roofs, domed houses, curving walls, or arches.`,
+                `Ayu is ruled by a dynasty. The ruling king or queen will select a blood heir to the throne. Usually a son or daughter, sometimes a brother or sister, and rarely a niece or nephew.`,
+                `The dominant religion in Ayu is the worship of the Heart Song. They give her offerings of flowers, and works of art, and ask her to bless their magic, creativity, and emotional wellbeing. While other religions are practiced in Ayu, including spiritualism and followers of the dragon philosophies, they are practiced by a minority.`,
+                `To greet people formally or respectfully, people touch their closed fingertips to their chest, then lower them in front of them to bare their forearms with open hands. People more familiar with each other will sometimes greet each other by touching forearms, either with the backs of their forearms or the insides my making an arm-hugging-motion. Lastly, close family and friends will often greet each other by softly bumping hips.`
+            ],
         },
         Mardenda: {
             title: "Mardenda",
-            subheading: "",
+            subheading: "The Marden Kingdom of Mardenda",
             image: null,
-            text: "",
+            text: [
+                `Mardenda is a striking, powerful city on the cliffs around a sheltered bay. Nestled just across the bay is a smaller town. The castle sits atop the cliffs' peak, overlooking the waters, city, and town below. Near the castle is the great colosseum, one of Mardenda's architectural marvels. Less significant, but more visible, a bridge spans all the way across the mouth of the bay, connecting the high cliff to a tall tower that stretches up from the nearby town.`,
+                `The city is walled all around, as well as the town. Docks greet boats in the bay. Descending down the cliffs' sloping backside are houses that descend in class along with the elevation. On the steepest portion of this slope, off to one side, is a winding switchback tangled in a mess of ramshackle homes of the poor that cling to the angled land. Business and mercentile districts fill the roads nearest to the docks. Spaced evenly along the wall, forts defend important locations.`,
+                `Mardenda is nearly a city-state. It is comprised mostly of one large city, but there are other, smaller outlying settlements beyond that are also part of the country. Most of the settlements are farming villages, ranches, and plantations to feed the main city. However, they're usually overlooked as part of the country.`,
+                `Mardenda has an autocratic ruler, a man with absolute power over his country and no accountability. The throne is passed on from father to son. He controls the country through military might. He relies on people called enforcers to execute his will. They are influential and powerful, and to many, dangerous. All people avoid crossing them.`,
+                `The upper class positions are held by the military. Being in Mardenda's military is highly desired, for the social position, as well as the reputation. Mardenda's military is regarded as the strongest fighting force in Ramaria. The middle class is quite small, while the lower class is very large and work in hard labor alongside mardendan slaves.`,
+                `The popular belief in Mardenda is that there are several gods, but all are inferior subjects of the Mighty Queen, the goddess they worship. It is also commonly believed that their government was established by her hand. The king, however, is not necessarily a divinely appointed ruler.`,
+                `Mardenda is known throughout Ramaria for its competitions. The people use combat as a sport for glory. The most famous is an annual tournament called the Glory Trials, which is treated like a holiday. The victor of the Glory Trials is named the Mighty Queen's Champion.`,
+                `Mardendans greet each other by gripping each other's right shoulders with their right hands. It's like a handshake. Instead of waving, Mardendans tap their right fist to their left breast, while maintaining eye contact.`,
+            ],
         },
-        Haldera: {
-            title: "Haldera",
+        DragonsPeak: {
+            title: "Dragons Peak",
             subheading: "",
             image: null,
-            text: "",
-        },
-        Romar: {
-            title: "Romar",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Tyarli: {
-            title: "Tyarli",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Gorombu: {
-            title: "Gorombu",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Coran: {
-            title: "Coran",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Drygard: {
-            title: "Drygard",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Leyli: {
-            title: "Leyli",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Dureweald: {
-            title: "Dureweald",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Irram: {
-            title: "Irram",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Aburra: {
-            title: "Aburra",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Homeland: {
-            title: "The Homeland",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Mardenin: {
-            title: "Mardenin",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Duskar: {
-            title: "Duskar",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Orjalief: {
-            title: "Orjalief",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-        Other: {
-            title: "Other",
-            subheading: "",
-            image: null,
-            text: "",
+            text: [
+                `Dragon's Peak is one of the natural wonders of the world. It is a mountian suspended above another mountain. It floats inverted, so that their "peaks" are between 200 and 800 feet apart. From its peak, it slants upward steeply, before curling back on itself and rounding off on the top into what looks like a shattered dome.`,
+                `There are streams of water that flow off of dragon's peak into waterfalls, but they don't look like typical water. Instead they look like flowing galaxies that dissipate into starry mists.`,
+                `Every 30 years, the dragons make a pilgrimage to Dragon's Peak. They gather in the top portion (the "shattered dome") which they call the Cradle. The dragons stay for roughly 10 days, during which they aren't seen outside of the Cradle again until they leave.`,
+            ],
         }
     },
     Magic: {
@@ -290,10 +253,10 @@ export const information = {
         // },
         Terrors: {
             title: "Terrors",
-            subheading: "",
+            subheading:                 `A word of warning, I have intentionally tried to make the terrors... unpleasant. While I haven't described them in disturbing detail here, if you are uninclined toward horror or related material, I advise you to skip this subject.`,
+
             image: null,
             text: [
-                `A word of warning, I have intentionally tried to make the terrors... unpleasant. While I haven't described them in disturbing detail here, if you are uninclined toward horror or related material, I advise you to skip this subject.`,
                 `Terrors are the most terrifying creatures in Ramaria. They dwell only in the darkness, and are all violent in nature. These two behaviors alone make them a challenge to research. In the sunlight, they turn into smoke, and when night falls, they seem to appear out of nowhere. They reproduce by killing other creatures. After a period of time, the killed creature transforms, mutating into a new monstrosity. When a terror dies, they rapidly decompose into a pool of black sludge.`,
                 `Among the more well known types of terrors are predators, snares, shells, and stalkers. Though several other types exist, very little is known about them.`,
                 `Predators are generally wolf-like. Their snouts are longer and filled with sharp teeth that drip a dark fluid. They don't have eyes, nor fur. Their pale skin is left exposed, and clings tightly to their gaunt bodies. Predators are clever hunters, relying on ambushes and pack tactics to overwhelm their prey. It is commonly believed that they actually can smell fear.`,
@@ -337,18 +300,6 @@ export const information = {
         //     image: null,
         //     text: "",
         // },
-        // Mutations: {
-        //     title: "Mutations",
-        //     subheading: "",
-        //     image: null,
-        //     text: "",
-        // },
-        // Otherworldly: {
-        //     title: "Otherworldly",
-        //     subheading: "",
-        //     image: null,
-        //     text: "",
-        // }
     },
     History: {
         Main: {
@@ -369,20 +320,6 @@ export const information = {
             image: null,
             text: "",
         },
-        Events: {
-            title: "Events",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-    },
-    Stories: {
-        Main: {
-            title: "Summary",
-            subheading: "",
-            image: null,
-            text: "",
-        },
     },
     Game: {
         Main: {
@@ -392,13 +329,5 @@ export const information = {
             text: "",
         },
     },
-    Other: {
-        Main: {
-            title: "",
-            subheading: "",
-            image: null,
-            text: "",
-        },
-    }
 }
 

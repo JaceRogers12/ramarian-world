@@ -15,7 +15,7 @@
   padding: 8px;
   padding-top: 3px;
   padding-bottom: 8px;
-  height: 300px;
+  height: 260px;
   margin-top: 5px;
   margin-bottom: 8px;
   display: flex;
@@ -50,4 +50,16 @@
 .navLink {
   font-size: 20px;
   padding: 5px 0 5px 0;
+}
+
+select {
+  color: hsl(130, 30%, 50%);
+  border: none;
+  background: hsla(130, 30%, 100%, 0%);
+  font-size: 16px;
+  border-bottom: 2px hsl(130, 30%, 50%) solid;
+}
+
+.subheading {
+  font-style: italic;
 }
