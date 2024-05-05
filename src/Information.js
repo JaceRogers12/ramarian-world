@@ -303,16 +303,23 @@ export const information = {
     },
     History: {
         Main: {
-            title: "Summary",
+            title: "Ramarian History",
             subheading: "",
             image: null,
-            text: "",
+            text: [
+                `The ages of Ramaria go as follows: The Age of Development, the Age of Civilization, the Age of Magic, The Hollow Age, the Age of Terror, and the Reclamation.`,
+                `In Ramaria's "present" day, the people of Ramaria have existed for three ages. The current Age is the fourth age, the Hollow age. The other two ages are planned for Ramaria's future.`,
+                ``,
+            ],
         },
         Ages: {
             title: "The Ages",
             subheading: "",
             image: null,
-            text: "",
+            text: [
+                `Ramaria's ages are told from the perspective of Ramaria's people. The dragons have lived far longer and have a larger perspective, but for the most part, Ramaria's story isn't about them. The ages are divided by changes that influence all of the people of Ramaria.`,
+                ``,
+            ],
         },
         Religion: {
             title: "Religions",
