@@ -307,9 +307,8 @@ export const information = {
             subheading: "",
             image: null,
             text: [
-                `The ages of Ramaria go as follows: The Age of Development, the Age of Civilization, the Age of Magic, The Hollow Age, the Age of Terror, and the Reclamation.`,
-                `In Ramaria's "present" day, the people of Ramaria have existed for three ages. The current Age is the fourth age, the Hollow age. The other two ages are planned for Ramaria's future.`,
-                ``,
+                `The ages of Ramaria go as follows: The Age of Development, the Age of Civilization, the Age of Magic, The Hollow Age, the Age of Terror, and the Reclamation. In Ramaria's "present" day, the people of Ramaria have existed for three ages. The current Age is the fourth age, the Hollow age. The other two ages are planned for Ramaria's future.`,
+                `There are many different religious beliefs practiced in Ramaria. Some people believe in one true divine being. Others believe in a small pantheon of gods and goddesses. Others still believe in spirits that inhabit all things and a cycle of reincarnation. And some people don't believe in divine beings at all. Some of the more popular divine beings are Lady Light, the Obscurer, the Natural One, the Keeper of Spirits, the Heart Song, and the Mighty Queen.`,
             ],
         },
         Ages: {
@@ -318,22 +317,38 @@ export const information = {
             image: null,
             text: [
                 `Ramaria's ages are told from the perspective of Ramaria's people. The dragons have lived far longer and have a larger perspective, but for the most part, Ramaria's story isn't about them. The ages are divided by changes that influence all of the people of Ramaria.`,
-                ``,
+                `The Age of Development is hypothesized to span the first 5,000 years that people exist. During this age, people invent tools, speech, agriculture, and it ends with the creation of civilizations. People lived in hunting and gathering nomadic bands. Life was dangerous and many creatures preyed upon the various humanoid races. Near the end of this age, people invented agriculture and language, allowing them to live together for safety without needing to move. This dramatic change in the way people lived initiated the Age of Civilization.`,
+                `There is only one major settlement identified from the Age of Civilization. It is an expansive city and may have housed the majority of the humanoid races for the duration of the age. The most popular theory regarding the formation of this city is that when it was established, word spread and people gathered to take shelter from the dangers of the wilds. People diversified their lifestyles, taking up farming, raising lifestock, and created various trades. A social structure was established, too. Toward the end of the Age of Civilization, people invented glass, allowing them to produce glimmer more reliably. This led to the Age of Magic.`,
+                `The Age of Magic marks the span of time where people used the advantages given to them by magic to spread. Armed with a new power to aid them in their survival, they were far more capable to fend off dangerous creatures now and establish other settlements and eventually, countries. According to the best estimation the people of Ramaria have, this age lasted for 1,300 years.`,
+                `A few dramatic and bizarre events mark the beginning of the current age- the Hollow Age. Records from the very beginning of the age report a large new light in the sky at night, and shortly following its appearance, terrifying creatures began to emerge during the same hours. Based on descriptions, the most likely assumption is that prior to this time, there had been no moon, nor terrors. The Hollow Age is named after a short span of time, the Hollow, where life lost all purpose and people were emptied of all feeling. After they regained themselves over the course of several years, many people wrote of the experience and of how they never felt the same since.`,
+                `Seeing as how the next two ages are officially "in the future", I'll only describe them breifly. Following the Hollow Age is a span of roughly 400 years, named the Age of Terror. It is believed by many to be the darkest time for all people.`,
+                `The Reclamation is an age of recovery for people across Ramaria, during which they adjust to a new world.`,
             ],
         },
         Religion: {
             title: "Religions",
             subheading: "",
             image: null,
-            text: "",
+            text: [
+                `Of all of the Ramarian gods and goddesses, Lady Light is the most worshipped. She is commonly depicted as a beautiful, radiant, powerful human woman in white. There is a magnificient temple dedicated to her in Orsira. One of Ramaria's dominant religions is based there. It is a well organized religion with branches in many different countries. While they do believe in the existence of other gods, they worship her as the purest and most benevolent deity.`,
+                `The Obscurer is only one name for a god who inspires freedom and forgiveness in his followers. Worship of him is not popular, organized, or even consistent. Many people call him by different names and have different rites of worship around him. The most unifying feature they all share is they own an unassuming black ring, likely made of wood. People have different stories about how they obtained it. Some find it as a discarded trinket, while others will steal it from a person who swears they never owned it. Despite their differences however, all of ring's owners seems committed to this deity of darkness and renewal.`,
+                `As the god of life and the harvest, the Natural One is generally worshipped only by individuals and smaller settlements, particularly those who practice farming and ranching as their way of life. They believe he provides sustenance to all living things, but as a being of balance and great wisdom, he also insists that life requires sacrifice. He is a god of birth, nature, and every breath.`,
+                `Few people worship the Keeper of Spirits. There are many different views of it, as male or female, as vengeful, peaceful, or grief-stricken, or as a being with a body or without one. While it isn't popularly worshipped, and people agree on so little about it, many people do believe in it. While the practices differ, people will leave an offering or recite a prayer over the dead, inviting the Keeper of Spirits to collect their loved ones and watch over them dutifully. Slinkers are a creature often witnessed around death, and many beliefs and superstitions have risen from this association.`,
+                `The Heart Song is a goddess of passion, creativity, magic, and wonder. Her worshippers pay tribute to her with amazing works of art that they dedicate in her name. She is also frequently viewed as the master of ceremonies, and people believe events surrounding birth, death, and especially marriage often bring her near.`,
+                `The Mighty Queen is the champion of the heavens and the guardian of the people of Ramaria. She is a being of power and fury; a conquerer, who decided that people are meant to be the dominant race in Ramaria. Some believe that she gives people the strength to overcome obstacles, and others believe that she puts obstacles in their way to make them grow and become stronger.`,
+            ],
         },
     },
     Game: {
         Main: {
-            title: "Summary",
+            title: "",
             subheading: "",
             image: null,
-            text: "",
+            text: [
+                `The game I am building for Ramaria is very much a work in progress, but I intend to describe it here in full when it is complete.`,
+                `"Ramarian Adventures" is a role-playing board game in which players progress through a story. My intention is to create multiple adventures to choose from, and have various scripted pathways in each adventure for the players to make decisions and see the outcome, similar to a choose your-own-adventure book. Unlike such books, I plan to make it more interactive, (as board games tend to be) where players take on the roles of heroes that fight monsters and men for the good of Ramaria.`,
+                `Each adventure is broken up into scenes, where the action happens. Typically each scene has its own board and accompanying text to describe the situation. Players' heroes have four attributes they customize their characters with: race, fighting style, and two types of magic. The gameplay revolves around a pair of dice the players roll to deterime the success of their actions as they each take turns.`
+            ]
         },
     },
 }
