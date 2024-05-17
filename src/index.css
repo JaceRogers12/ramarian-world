@@ -1,11 +1,12 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: garamond, georgia, "times new roman";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: hsl(130, 30%, 50%);
+  background-image: url("./images/RamariaMap.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
   /* border: 2px black dashed; */
 }
 

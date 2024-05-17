@@ -1,3 +1,5 @@
+import ramariaMap from "./images/RamariaMap.jpeg";
+
 export const information = {
     Routes: ["Home", "Locations", "Magic", "Races", "Creatures", "History", "Game"],
     Home: {
@@ -15,7 +17,7 @@ export const information = {
         Main: {
             title: "Ramaria",
             subheading: "",
-            image: null,
+            image: ramariaMap,
             text: [
                 `There are many countries across the face of Ramaria. The three most noteworthy countries are Orsira, Ayu, and Mardenda. The other countires of the world are described breifly as follows:`,
                 `Haldera is a generic human kingdom, modelling classic eruopean castles, knights, and fiefs.`,
@@ -103,7 +105,7 @@ export const information = {
     },
     Races: {
         Main: {
-            title: "People of Ramaria",
+            title: "People of Ramaria ",
             subheading: "",
             image: null,
             text: [

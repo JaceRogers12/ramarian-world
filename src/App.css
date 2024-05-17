@@ -11,11 +11,11 @@
 .navigation {
   border-right: 3px hsl(130, 30%, 50%) solid;
   border-bottom: 3px hsl(130, 30%, 50%) solid;
-  width: 85px;
+  width: 95px;
   padding: 8px;
   padding-top: 3px;
   padding-bottom: 8px;
-  height: 260px;
+  height: 250px;
   margin-top: 5px;
   margin-bottom: 8px;
   display: flex;
@@ -24,16 +24,19 @@
 
 .header {
   border: 3px black solid;
-  padding: 8px;
+  padding: 5px;
   background: hsl(130, 30%, 50%);
   border-radius: 5px;
   margin: -5px;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .footer {
   display: block;
   border-top: 3px hsl(130, 30%, 50%) solid;
   padding: 15px;
+  font-weight: bold;
 }
 
 .content {
@@ -48,18 +51,40 @@
 }
 
 .navLink {
-  font-size: 20px;
+  font-size: 23px;
   padding: 5px 0 5px 0;
+  color: hsl(130, 30%, 50%);
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 select {
   color: hsl(130, 30%, 50%);
   border: none;
   background: hsla(130, 30%, 100%, 0%);
-  font-size: 16px;
+  font-size: 23px;
   border-bottom: 2px hsl(130, 30%, 50%) solid;
+  font-weight: bolder;
+  font-family: garamond, gerogia, "times new roman";
 }
 
 .subheading {
   font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.contentImage {
+  max-width: 400px;
+  float: right;
+}
+
+.infoName {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 18px;
 }
