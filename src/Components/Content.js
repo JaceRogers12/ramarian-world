@@ -17,17 +17,21 @@ function Content (props) {
     //console.log();
     return (
         <div className="content" >
-            <h2>{info}</h2>
+            <h2 className="infoName" >{info}</h2>
             {current["title"]
-                && <select name="topic" value={topic} onChange={event => topicChange(event)} >
+                && <select name="topic" value={topic} onChange={event => topicChange(event) } >
                     {optionsMaker()}
                 </select>
             }
-            {current["subheading"] && <p className="subheading" >{current["subheading"]}</p>}
-            {current["image"] && <img alt={`${current["title"]} Image`} />}
-            {current["text"] && current["text"].map((para, i) => {
-                return <p className="text" key={i} >{para}</p>
-            })}
+            {current["subheading"]
+                && <p className="subheading" >{current["subheading"]}</p>
+            }
+            {current["image"]
+                && <img src={current["image"]} alt={`${current["title"]} Image`} className="contentImage" />
+            }
+                {current["text"] && current["text"].map((para, i) => {
+                    return <p className="text" key={i} >{para}</p>
+                })}
         </div>
     )
 }
