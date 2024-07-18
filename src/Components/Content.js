@@ -1,5 +1,5 @@
 import React from "react";
-import {information} from "../Information";
+import {information} from "../information";
 
 function Content (props) {
     const {info, topic, topicChange} = props;

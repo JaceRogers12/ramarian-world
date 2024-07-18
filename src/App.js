@@ -1,10 +1,10 @@
-import './App.css';
+//import './App.css';
 import React, {useState} from "react";
-import Header from "./Components/Header.js";
-import Navigation from "./Components/Navigation.js";
-import Content from "./Components/Content.js";
-import Footer from "./Components/Footer.js";
-import {information} from "./Information.js";
+import Header from "./components/Header.js";
+import Navigation from "./components/Navigation.js";
+import Content from "./components/Content.js";
+import Footer from "./components/Footer.js";
+import {information} from "./information.js";
 import {Routes, Route} from "react-router-dom";
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         <Navigation routeChange={routeChange} />
         <Routes>
           {information.Routes.map((route, i)=> {
-            return <Route path={route == "Home"? "/" : route.toLowerCase()} key={i} 
+            return <Route path={route === "Home"? "/" : route.toLowerCase()} key={i} 
               element={<Content info={route} topic={topic} topicChange={topicChange} />}
             />
           })}

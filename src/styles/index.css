@@ -3,7 +3,7 @@ body {
   font-family: garamond, georgia, "times new roman";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./images/RamariaMap.jpeg");
+  background-image: url("../images/ramaria-map.jpeg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;

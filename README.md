@@ -13,3 +13,4 @@ Add an onClick to images to make them grow and shrink or mouseover to zoom.
 Add more info (particularly about creatures).
 Maybe add more interactive features?
 Maybe add profile functionality?
+Add the Meyer reset and make sure styles still look good.
