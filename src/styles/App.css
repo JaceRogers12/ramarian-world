@@ -1,5 +1,7 @@
 .App h1 {
   text-align: center;
+  font-size: 40px;
+  margin: 15px;
 }
 
 .App {
@@ -14,7 +16,7 @@
   width: 95px;
   padding: 8px;
   padding-top: 3px;
-  padding-bottom: 8px;
+  padding-bottom: 0px;
   height: 250px;
   margin-top: 5px;
   margin-bottom: 8px;
@@ -42,7 +44,7 @@
 .content {
   width: auto;
   /* border: 2px yellow dashed; */
-  padding: 16px;
+  padding: 30px 20px;
 }
 
 .main {
@@ -66,6 +68,7 @@ select {
   border-bottom: 2px hsl(130, 30%, 50%) solid;
   font-weight: bolder;
   font-family: garamond, gerogia, "times new roman";
+  margin: 0px 10px 10px 10px;
 }
 
 .subheading {
@@ -77,14 +80,21 @@ select {
 .contentImage {
   max-width: 400px;
   float: right;
+  margin: 15px;
+  border-radius: 5px;
 }
 
 .infoName {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bolder;
+  margin: 10px;
 }
 
 .text {
   font-weight: bold;
   font-size: 18px;
+}
+
+p {
+  margin: 15px;
 }
