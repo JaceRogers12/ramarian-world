@@ -14,10 +14,9 @@
   border-right: 3px hsl(130, 30%, 50%) solid;
   border-bottom: 3px hsl(130, 30%, 50%) solid;
   width: 95px;
-  padding: 8px;
-  padding-top: 3px;
-  padding-bottom: 0px;
-  height: 250px;
+  padding: 3px 8px 0px 8px;
+  
+  height: 235px;
   margin-top: 5px;
   margin-bottom: 8px;
   display: flex;
