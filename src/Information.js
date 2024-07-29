@@ -1,4 +1,4 @@
-import ramariaMap from "./images/RamariaMap.jpeg";
+import ramariaMap from "./images/ramaria-map.jpeg";
 
 export const information = {
     Routes: ["Home", "Locations", "Magic", "Races", "Creatures", "History", "Game"],
@@ -353,5 +353,4 @@ export const information = {
             ]
         },
     },
-}
-
+};

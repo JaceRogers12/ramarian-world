@@ -7,9 +7,10 @@ The deployed website can be found at https://ramarian-world.vercel.app.
 To Do:
 Fix webite to be pretty on mobile browsers.
 Write tests.
+Create a real database? Maybe just a mock server?
 Add more pictures.
 Add an onClick to images to make them grow and shrink or mouseover to zoom.
 Add more info (particularly about creatures).
-Create a real database.
 Maybe add more interactive features?
 Maybe add profile functionality?
+Edit select bar so that Races/PeopleOfRamaria still looks good. (It's cropping off part of the last a right now.)

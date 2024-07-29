@@ -1,5 +1,5 @@
 import React from "react";
-import {information} from "../Information";
+import {information} from "../information";
 
 function Content (props) {
     const {info, topic, topicChange} = props;
@@ -10,11 +10,10 @@ function Content (props) {
         let count = 0;
         for (let property in information[info]) {
             result.push(<option value={property} key={count++}>{information[info][property]["title"]}</option>)
-        }
+        };
         return result;
-    }
+    };
     
-    //console.log();
     return (
         <div className="content" >
             <h2 className="infoName" >{info}</h2>
@@ -27,13 +26,13 @@ function Content (props) {
                 && <p className="subheading" >{current["subheading"]}</p>
             }
             {current["image"]
-                && <img src={current["image"]} alt={`${current["title"]} Image`} className="contentImage" />
+                && <img src={current["image"]} alt={`${current["title"]}`} className="contentImage" />
             }
                 {current["text"] && current["text"].map((para, i) => {
                     return <p className="text" key={i} >{para}</p>
                 })}
         </div>
-    )
-}
+    );
+};
 
 export default Content;
