@@ -12,7 +12,7 @@ function Navigation (props) {
                     className="navLink" >{route}</Link>
             })}
         </div>
-    )
-}
+    );
+};
 
 export default Navigation;

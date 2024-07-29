@@ -5,7 +5,7 @@ function Header () {
         <header className="header">
             <h1>The World of Ramaria</h1>
         </header>
-    )
-}
+    );
+};
 
 export default Header;

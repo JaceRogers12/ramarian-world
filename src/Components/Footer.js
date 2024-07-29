@@ -6,7 +6,7 @@ function Footer() {
         <footer className="footer">
             <div>Contact: jacerogers12@gmail.com</div>
         </footer>
-    )
-}
+    );
+};
 
 export default Footer;

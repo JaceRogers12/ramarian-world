@@ -353,5 +353,4 @@ export const information = {
             ]
         },
     },
-}
-
+};

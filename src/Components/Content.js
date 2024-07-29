@@ -10,9 +10,9 @@ function Content (props) {
         let count = 0;
         for (let property in information[info]) {
             result.push(<option value={property} key={count++}>{information[info][property]["title"]}</option>)
-        }
+        };
         return result;
-    }
+    };
     
     return (
         <div className="content" >
@@ -32,7 +32,7 @@ function Content (props) {
                     return <p className="text" key={i} >{para}</p>
                 })}
         </div>
-    )
-}
+    );
+};
 
 export default Content;

@@ -12,10 +12,10 @@ function App() {
 
   const routeChange = () => {
     setTopic("Main")
-  }
+  };
   const topicChange = (event) => {
     setTopic(event.target.value)
-  }
+  };
 
   return (
     <div className="App" >
@@ -33,6 +33,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
