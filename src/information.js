@@ -88,7 +88,7 @@ export const information = {
                 `There are streams of water that flow off of dragon's peak into waterfalls, but they don't look like typical water. Instead they look like flowing galaxies that dissipate into starry mists.`,
                 `Every 30 years, the dragons make a pilgrimage to Dragon's Peak. They gather in the top portion (the "shattered dome") which they call the Cradle. The dragons stay for roughly 10 days, during which they aren't seen outside of the Cradle again until they leave.`,
             ],
-        }
+        },
     },
     Magic: {
         Main: {
@@ -116,7 +116,8 @@ export const information = {
             title: "Humans",
             subheading: "",
             image: null,
-            text: [`The humans of Ramaria are nearly the same as the humans of Earth. Compared to the other races of Ramaria, humans are balanced, adaptable individuals that fit in anywhere, with no speical racial features that set them apart from others.`,
+            text: [
+                `The humans of Ramaria are nearly the same as the humans of Earth. Compared to the other races of Ramaria, humans are balanced, adaptable individuals that fit in anywhere, with no speical racial features that set them apart from others.`,
                 `Humans are widespread, with a few of their own countries throughout the world. They also are frequently mixed in with countries dominated by other races. Wherever you go in Ramaria, there are usually humans to be found somewhere nearby.`,
             ],
         },
@@ -151,8 +152,7 @@ export const information = {
                 `A spirit of agression is also a common trait of the marden. Not to be confused with anger, they are passionately competitive in many of their pursuits. The release of their aggressive energy in some competitive form is important to them. It often has cultural or traditional significance.`,
                 `Marden, like humans, live for less than a century. They mature in their early teens, reach adulthood in their late teens, and are often subjected to old age gradually after they turn 40.`,
                 `Marden skin is bronze in color. Male marden don't grow any hair on their bodies, and female marden grow it bountifully. They often style their hair in a viking fashion or leave it to naturally develop into a fiece mane. Due to their biology, hair is seen as a feminine trait in their cultures, and often men of other races that live among them will shave their faces and heads.`
-            ]
-
+            ],
         },
         Bordromar: {
             title: "Bordromar",
@@ -255,8 +255,7 @@ export const information = {
         // },
         Terrors: {
             title: "Terrors",
-            subheading:                 `A word of warning, I have intentionally tried to make the terrors... unpleasant. While I haven't described them in disturbing detail here, if you are uninclined toward horror or related material, I advise you to skip this subject.`,
-
+            subheading: `A word of warning, I have intentionally tried to make the terrors... unpleasant. While I haven't described them in disturbing detail here, if you are uninclined toward horror or related material, I advise you to skip this subject.`,
             image: null,
             text: [
                 `Terrors are the most terrifying creatures in Ramaria. They dwell only in the darkness, and are all violent in nature. These two behaviors alone make them a challenge to research. In the sunlight, they turn into smoke, and when night falls, they seem to appear out of nowhere. They reproduce by killing other creatures. After a period of time, the killed creature transforms, mutating into a new monstrosity. When a terror dies, they rapidly decompose into a pool of black sludge.`,
@@ -350,7 +349,7 @@ export const information = {
                 `The game I am building for Ramaria is very much a work in progress, but I intend to describe it here in full when it is complete.`,
                 `"Ramarian Adventures" is a role-playing board game in which players progress through a story. My intention is to create multiple adventures to choose from, and have various scripted pathways in each adventure for the players to make decisions and see the outcome, similar to a choose your-own-adventure book. Unlike such books, I plan to make it more interactive, (as board games tend to be) where players take on the roles of heroes that fight monsters and men for the good of Ramaria.`,
                 `Each adventure is broken up into scenes, where the action happens. Typically each scene has its own board and accompanying text to describe the situation. Players' heroes have four attributes they customize their characters with: race, fighting style, and two types of magic. The gameplay revolves around a pair of dice the players roll to deterime the success of their actions as they each take turns.`
-            ]
+            ],
         },
     },
 };
